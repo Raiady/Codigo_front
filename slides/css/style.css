@@ -1,0 +1,9 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("int.jpg");
+	 border-radius: 2em / 5em;
+}
+

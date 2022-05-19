@@ -1,0 +1,24 @@
+body{
+	background-color: lightcyan;
+}
+#cats{
+	position: relative;
+	left: 0;
+	bottom: 0;
+	display: inline-block;
+	margin: 10px;
+}
+#dog{
+	position: relative;
+	left: 0;
+	bottom: 0;
+	display: inline-block;
+	margin: 10px;
+}
+#flores{
+	position: relative;
+	left: 0;
+	bottom: 0;
+	display: inline-block;
+	margin: 10px;
+}
