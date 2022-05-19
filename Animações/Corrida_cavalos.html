@@ -12,21 +12,25 @@
 </script>
 <link rel="stylesheet" type="text/css" href="css/pet.css">
 <script>
+	//aqui utilizando o metodo click para quando clicar na imagem ela realizar a função
 	     $(document).ready(function () {
             $("#flores").click(function () {
-
+       //utilização do metodo animate para animar as imagens 
                 $("#flores").animate({ height: '300px' });
+		    //aumentar o tamanho da imagem e mover para esquerda
                 $("#flores").animate({ left: '+50%' });
             });
             $("#dog").click(function () {
                 $("#dog").animate({ left: '+50%' });
+		    //deslizar para esquerda
             });
             $("#cats").click(function () {
                 $("#cats").animate({ height: '400px', width: '400px' });
+		    //aumenta as dimenções da imagem
             });
         });
 </script>
-
+//caracteristicas das imagens
 <style >
 
  body{
@@ -60,6 +64,7 @@
 
  
 </head>  
+	
 	<div style="text-align: center; background-image: url(img/xa.jpg) ;color:royalblue;" class="jumbotron jumbotron-fluid px-3">
         <h1>Corrida</h1>
         
