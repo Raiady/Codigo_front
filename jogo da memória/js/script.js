@@ -1,22 +1,22 @@
 (function(){
-	//array que armazenará os objetos com src e id de 1 a 8
+	//array que armazenará os objetos de 1 a 8
 	var images = [];
 	
 	//imagem a ser exibida em caso de acerto
 	var matchSign = document.querySelector("#match");
 	
-	//imagem de fim do jogo
+	// fim do jogo
 	var modal = document.querySelector("#gameOver");
 	
 	//array que armazena as cartas viradas
 	var flippedCards = [];
 	
-	//variável contadora de acertos. ao chegar em 8 o jogo termina
+	//contador
 	var matches = 0;
 	
-	//estrutura de atribiução das imagens aos card
+	//estrutura de reptção para sequenciar as cartas
 	for(var i = 0; i < 16; i++){
-		//cria um objeto img com um src e um id
+		//cria um objeto img com  um id
 		var img = {
 			src: "img/" + i + ".jpg",
 			id: i%8
@@ -26,7 +26,7 @@
 		images.push(img);
 	}
 	
-	//chama a função de inicialização do jogo
+	//chamar a função de inicialização do jogo
 	startGame();
 	
 	//função de inicialização do jogo
